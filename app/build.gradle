@@ -19,10 +19,11 @@ android {
 
     defaultConfig {
         applicationId "com.jetugapps.gallery.plus"
+        //applicationId "com.jetugapps.gallery"
         minSdkVersion 23
         targetSdkVersion 30
-        versionCode 9
-        versionName "1.1.1"
+        versionCode 12
+        versionName "1.1.5"
         setProperty("archivesBaseName", "gallery-$versionCode")
         vectorDrawables.useSupportLibrary = true
     }
