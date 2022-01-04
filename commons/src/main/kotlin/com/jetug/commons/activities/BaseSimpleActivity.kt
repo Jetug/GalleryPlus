@@ -22,6 +22,7 @@ import android.view.MenuItem
 import android.view.View
 import android.view.WindowManager
 import android.widget.Toast
+import androidx.activity.result.ActivityResultLauncher
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
@@ -124,6 +125,9 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             super.attachBaseContext(newBase)
         }
     }
+
+
+
 
     fun updateBackgroundColor(color: Int = baseConfig.backgroundColor) {
         window.decorView.setBackgroundColor(color)
